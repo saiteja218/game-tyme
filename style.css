@@ -1,0 +1,442 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #212121;
+    width: 100%;
+}
+
+.nav {
+    background-color: white;
+}
+
+
+
+@media (min-width: 0px) and (max-width: 500px)  {
+    .nav {
+        display: flex;
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav img {
+        height: 3rem;
+    }
+
+    main .one img {
+        width: 50%;
+        height: 75vh;
+    }
+
+    .one h2 {
+        margin-top: 2rem;
+    }
+
+    .one p {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .one h2,
+    p {
+        padding: 0.5rem;
+    }
+
+    main .one {
+        text-align: center;
+    }
+
+    .two {
+        background-color: white;
+        width: 60%;
+        padding: 1.5rem;
+        margin: 5vh auto;
+        border-radius: 15px;
+
+    }
+
+    /* .two form input { */
+        /* margin: 0 auto; */
+    /* } */
+
+    .two label {
+        color: black;
+        margin-left: 0.4rem;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        margin: 0.5rem;
+        border: none;
+        padding: 0.2rem;
+        border-bottom: 1px solid #212121;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    form .checkbox input {
+        margin-bottom: 0.7rem;
+        margin-left: 0.5rem;
+    }
+
+    form .checkbox {
+        margin-top: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Button {
+        display: block;
+        color: white;
+        font-size: 1rem;
+        background-color: #212121;
+        border-radius: 12px;
+        font-weight: bold;
+        padding: 0.5rem;
+        width: 90%;
+        margin: 2vh auto;
+        margin-bottom: 0;
+
+    }
+
+    .eq_list h2 {
+        text-align: center;
+    }
+
+    .equips {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1.5rem;
+        /* justify-content: space-around; */
+    }
+
+    .equips img {
+        height: 20vh;
+        width: 60%;
+        background: white;
+        border-radius: 15px;
+        margin: 1rem auto;
+
+    }
+
+
+
+    .up {
+        background: white;
+        color: #212121;
+    }
+
+    .up h2,
+    .down h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+
+    .up img,
+    .down img {
+        width: 19rem;
+        height: 17rem;
+        border-radius: 15px;
+    }
+
+    .up,
+    .down {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+}
+
+@media (min-width: 501px)and (max-width:849px) {
+    .nav {
+        display: flex;
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav img {
+        height: 3rem;
+    }
+
+    main .one img {
+        width: 50%;
+        height: 75vh;
+    }
+
+    .one h2 {
+        margin-top: 2rem;
+    }
+
+    .one p {
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .one h2,
+    p {
+        padding: 0.5rem;
+    }
+
+    main .one {
+        text-align: center;
+    }
+
+    .two {
+        background-color: white;
+        width: 65%;
+        padding: 1.5rem;
+        margin: 5vh auto;
+        border-radius: 15px;
+
+    }
+
+    /* .two form input { */
+        /* margin: 0 auto; */
+    /* } */
+
+    .two label {
+        color: black;
+        margin-left: 0.4rem;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        margin: 0.5rem;
+        border: none;
+        padding: 0.2rem;
+        border-bottom: 1px solid #212121;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    form .checkbox input {
+        margin-bottom: 0.7rem;
+        margin-left: 0.5rem;
+    }
+
+    form .checkbox {
+        margin-top: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Button {
+        display: block;
+        color: white;
+        font-size: 1rem;
+        background-color: #212121;
+        border-radius: 12px;
+        font-weight: bold;
+        padding: 0.5rem;
+        width: 90%;
+        margin: 2vh auto;
+        margin-bottom: 0;
+
+    }
+
+    .eq_list h2 {
+        text-align: center;
+    }
+
+    .equips {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding-bottom: 1.5rem;
+        /* justify-content: space-around; */
+    }
+
+    .equips img {
+        box-sizing: content-box;
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        background: white;
+        border-radius: 15px;
+        margin: 1rem auto;
+
+    }
+
+
+
+    .last{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .up h2,
+    .down h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+    .up, .down{
+        width: 70%;
+    }
+    
+    .up{
+        background-color: white;
+    }
+    .up img,
+    .down img {
+        width: 70%;
+        height: 70%;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+}
+@media (min-width: 850px) {
+    .nav {
+        display: flex;
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav img {
+        height: 3rem;
+    }
+    main{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 1rem;
+    }
+    main .one img {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        height: 70vh;
+    }
+
+    main p, main h2{
+        display: none;
+    }
+
+    main .one {
+        width: 50%;
+    }
+    main .two{
+        width: 50%;
+    }
+    .two form{
+        background-color: white;
+        width: 80%;
+        padding:1rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: auto;
+        border-radius: 15px;
+
+    }
+
+    /* .two form input { */
+        /* margin: 0 auto; */
+    /* } */
+
+    .two label {
+        color: black;
+        margin-left: 0.4rem;
+    }
+
+    input[type="text"] {
+        width: 100%;
+        margin: 0.5rem;
+        border: none;
+        padding: 1rem;
+        border-bottom: 1px solid #212121;
+        font-size: 1rem;
+        outline: none;
+    }
+
+    form .checkbox input {
+        margin-bottom: 0.7rem;
+        margin-left: 2.4rem;
+        padding: 1rem;
+        /* padding-left: 2rem; */
+    }
+
+    form .checkbox {
+        margin-top: 10px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .Button {
+        display: block;
+        color: white;
+        font-size: 1rem;
+        background-color: #212121;
+        border-radius: 12px;
+        font-weight: bold;
+        padding: 0.7rem;
+        width: 90%;
+        margin: 2vh auto;
+        margin-bottom: 0;
+
+    }
+
+    .eq_list h2 {
+        text-align: center;
+    }
+
+    .equips {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding-bottom: 1.5rem;
+        /* justify-content: space-around; */
+    }
+
+    .equips img {
+        box-sizing: content-box;
+        height: 150px;
+        width: 150px;
+        padding: 10px;
+        background: white;
+        border-radius: 15px;
+        margin: 1rem auto;
+
+    }
+
+    .last{
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    .up h2,
+    .down h2 {
+        padding: 1rem;
+        text-align: center;
+    }
+    .up,.down{
+        width: 50%;
+    }
+    
+    .up{
+        background-color: white;
+    }
+    .last .up img,.last .down img {
+        width: 15rem;
+        height: 15rem;
+        border-radius: 15px;
+        display: block;
+        margin: auto;
+    }
+
+}
+
